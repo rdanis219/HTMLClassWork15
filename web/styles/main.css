@@ -1,0 +1,126 @@
+/*
+Copyright (c) 2015 Robert Danis)
+*/
+
+html {
+    font-family: sans-serif;
+    color: #000;
+    background-image: url(../images/bats.gif);
+} 
+body {
+    border: 1px solid black;
+    font-size: 110%;
+    margin: 0 auto;
+    width: 800px;
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+}
+#pumpkin {
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}  
+header {
+    border: 1px solid black;
+    background: linear-gradient(45deg, white, orange 67%, black);
+    margin-left: 0px;
+    padding-left: 0px;   
+}
+#Goblin {
+    text-indent: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#Halloween_Store {
+    color: black;
+    text-indent: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#Vmenu{
+    list-style: none;
+}
+#Hmenu{
+    //clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    background: black;
+}
+#Hmenu li {
+    display: inline-block;
+}
+#Hmenu li a{
+    display: block;
+    line-height: 2em;
+    padding: 0 2em;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+#Hmenu li a:hover {
+    background: grey;
+}
+#menu li a:showing {
+    background: orange;
+}
+#Vmenu a{   
+    clear: both;
+    list-style-type: none;
+    float: left;
+    display: block;
+    width: 8em;
+    width: 130px;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: orange;    
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .25em;
+    border: .5em black;
+    border-color: #000;
+    margin-top: 5px;
+}
+#Vmenu li{
+    border-color: black;
+}
+#Vmenu a:hover {
+    background: #87492F;
+    width: 7.6em;
+}
+#main{
+    float: right;
+    width: 600px;
+    margin-left: 0px; 
+}
+#welcome::first-letter {
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#Please {
+    clear: both;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#cat_deranged a{
+    color: orange;
+    clear: both;
+    font-weight: bold;
+}
+footer {
+  clear: both;
+  margin: 0 auto;
+  padding-top: .5em;
+  padding-bottom: 10px;
+  font-size: 80%;
+  text-align: center;
+  border: 1px solid black;
+  background: linear-gradient(45deg, black, orange 33%, white);
+}
+
