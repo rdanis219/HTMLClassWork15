@@ -15,6 +15,12 @@ body {
     box-shadow: 0 0 25px 8px #000;
     background-color: white;
 }
+#long {
+    height: 520px;
+}
+h2 {
+    width: 500px;
+}
 #pumpkin {
     float: left;
     margin-bottom: 30px;
@@ -38,6 +44,11 @@ header {
     margin-bottom: 0px;
     margin-top: 10px;
     margin-left: 50px;
+}
+nav {
+    clear: both;
+    width: 100%;
+    background: black;
 }
 #Hmenu{
     clear: both;
@@ -74,7 +85,9 @@ header {
     border-color: black;
 }
 #Vmenu a{   
+    clear: both;
     list-style-type: none;
+    float: left;
     display: block;
     width: 8em;
     width: 130px;
@@ -96,21 +109,88 @@ header {
     background: #87492F;
     width: 7.6em;
 }
-#main{
+#Sidebar {
     float: right;
-    width: 600px;
-    margin-left: 0px; 
+    width: 200px;
+    background-color: #F5DEB3;
 }
-#welcome::first-letter {
-  font-weight: bold;
-  font-size: 150%;
-  margin-top: 0px;
-  padding-top: 0px;
+#VmenuRight {
+    list-style: none;
+    border-color: black;
+    font-size: 90%;
 }
-#Please {
-    clear: both;
+#VmenuRight a{   
+    display: block;
+    width: 110px;  
+    color: black;
+}
+#bat_pic {
+     height: 70px;
+     width: 70px;
+}
+#rat_pic {
+    height: 70px;
+    width: 70px;
+}
+#strobe_pic{
+    height: 70px;
+    width: 70px;
+}
+#main {
+    float: left;
+    width: 550px;
+    margin-left: 20px;
+}
+#subscribe {
+    width: 10em;
+    height: 2em;
+    margin-left: 100px; 
+}
+button{
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+    background-color: orange;
+    margin-top: 20px;
+    border-color: black;
+    margin-right: 300px;
+}
+form {
+    width: 500px;
+    margin-left: 20px;
+}
+input {
+    width: 35em;
+    height: 2em;
+    padding-top: 10px;
+    font-size: .65em;
+}
+#catTag {
+    float: left;  
+}
+#welcome {
+    clear: both;   
+}
+#This_Cat {
+    float: right;
     margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: normal;
+    width: 150px;
+}
+input:invalid {
+  background-color: red;
+}
+input:valid {
+  background-color: green;
+}
+input {
+  padding: 0.25em 0;
+  margin-bottom: 0.75em;
+}
+#Price {
+    font-weight: bold;
+    float: right;
+    margin-top: 0px;
 }
 #cat_deranged a{
     color: orange;
@@ -118,8 +198,11 @@ header {
     font-weight: bold;
 }
 footer {
+  margin-left: 0px;
   clear: both;
   margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
   padding-top: .5em;
   padding-bottom: 10px;
   font-size: 80%;

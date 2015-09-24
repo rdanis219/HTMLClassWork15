@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet"  type="text/css" href ="styles/email.css"> 
+        <title>The Halloween Store</title>
+    </head>
+    <section id ="long">
+        <header>
+            <a href="index.html">
+            <img id = pumpkin src="images/pumpkin.gif" alt="pumpkin" /></a>
+            <h1 id = Halloween_Store>The Halloween Store</h1>
+            <h4 id = Goblin> <b>For the little Goblin in all of us!</b></h4>
+        </header>
+       <nav>
+    <ul id = "Hmenu">
+        <li><a href="index.html" title="Home Page">Home</a></li>
+        <li><a href="product_list.html" title="Product List" class
+               ="current">Product List</a></li>
+        <li><a href="personal/index.html" title="Personal Information"
+               >Personal</a></li>
+        <li><a href="decorating/index.html" title="Decorating Ideas"
+               >Decorating Ideas</a></li>
+        <li><a href="email.html" title="Join Email">Join Email</a></li>
+    </ul></nav>
+    <ul id = "Vmenu">
+        <li><a href="">Props</a></li>
+        <li><a href="">Costumes</a></li>
+        <li><a href="">Special FX</a></li>
+        <li><a href="">Masks</a></li>
+    </ul>
+     <div id = "main">
+         <h2>Please enter the following information:</h2>   
+            <form action="#">
+                First name: <input type="text" name="firstname" id="firstname"
+                                   required><br>
+                Last name: <input type="text" name="lastname" required><br>
+                Email: <input type="email" id="email" name="email" required 
+                              placeholder="Enter a valid email address"><br>
+                Zip Code: <input type="text" id="zip" name="zipcode" 
+                                 pattern="[0-9]{5}" required placeholder
+                                 ="Optional but appreciated: 99999">
+                </form>
+         <div id ="subscribe">
+            <form method="get" action="email_response.html">
+    <button type="submit">Subscribe</button></form>
+      </div>
+                   </section>
+          <footer> (c) 2015 Robert Danis</footer>   
+</html>
+

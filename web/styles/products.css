@@ -39,6 +39,11 @@ header {
     margin-top: 10px;
     margin-left: 50px;
 }
+nav {
+    clear: both;
+    width: 100%;
+    background: black;
+}
 #Hmenu{
     clear: both;
     margin: 0px;
@@ -74,7 +79,9 @@ header {
     border-color: black;
 }
 #Vmenu a{   
+    clear: both;
     list-style-type: none;
+    float: left;
     display: block;
     width: 8em;
     width: 130px;
@@ -96,21 +103,56 @@ header {
     background: #87492F;
     width: 7.6em;
 }
-#main{
+#Sidebar {
     float: right;
-    width: 600px;
-    margin-left: 0px; 
+    width: 200px;
+    background-color: #F5DEB3;
 }
-#welcome::first-letter {
-  font-weight: bold;
-  font-size: 150%;
-  margin-top: 0px;
-  padding-top: 0px;
+#VmenuRight {
+    list-style: none;
+    border-color: black;
+    font-size: 90%;
 }
-#Please {
+#VmenuRight a{   
+    display: block;
+    width: 110px;  
+    color: black;
+}
+#bat_pic {
+     height: 70px;
+     width: 70px;
+}
+#rat_pic {
+    height: 70px;
+    width: 70px;
+}
+#strobe_pic{
+    height: 70px;
+    width: 70px;
+}
+#main {
+    float: left;
+    margin-left: 0px;
+    width: 400px;
+}
+#catTag {
+    float: left;
+    
+}
+#welcome {
     clear: both;
+    
+}
+#This_Cat {
+    float: right;
     margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: normal;
+    width: 150px;
+}
+#Price {
+    font-weight: bold;
+    float: right;
+    margin-top: 0px;
 }
 #cat_deranged a{
     color: orange;
@@ -127,4 +169,5 @@ footer {
   border: 1px solid black;
   background: linear-gradient(45deg, black, orange 33%, white);
 }
+
 

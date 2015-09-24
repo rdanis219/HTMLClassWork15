@@ -15,6 +15,10 @@ body {
     box-shadow: 0 0 25px 8px #000;
     background-color: white;
 }
+table {
+    text-decoration-color: none !important;;
+    color: black !important;
+}
 #pumpkin {
     float: left;
     margin-bottom: 30px;
@@ -98,8 +102,8 @@ header {
 }
 #main{
     float: right;
-    width: 600px;
-    margin-left: 0px; 
+    width: 300px;
+    margin-right: 100px;
 }
 #welcome::first-letter {
   font-weight: bold;
@@ -112,10 +116,9 @@ header {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-#cat_deranged a{
+.currentLink {
     color: orange;
-    clear: both;
-    font-weight: bold;
+    background-color: orange;
 }
 footer {
   clear: both;
