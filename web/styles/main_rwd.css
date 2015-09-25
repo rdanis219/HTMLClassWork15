@@ -1,0 +1,232 @@
+/*
+Copyright (c) 2015 Robert Danis)
+*/
+html {
+    font-family: sans-serif;
+    color: #000;
+    background-image: url(../images/bats.gif);
+    max-width: 960px;
+    width: 95%;
+    padding-left: 15.63%; //150px;
+}
+img {
+    min-width: 40px;
+}
+body {
+    border: 1px solid black;
+    font-size: 110%;
+    margin: 0 auto;
+    width: 83%; //800px 
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+}
+#pumpkin {
+    float: left;
+    margin-bottom: 3.125%; //30px;
+    margin-top: 1.04%; //10px;
+    margin-left: 2.08%; //20px;
+    min-width: 40px;
+    width: auto;
+}  
+header {
+    border: 1px solid black;
+    background: linear-gradient(45deg, white, orange 67%, black);
+    margin-left: 0px;
+    padding-left: 0px;   
+}
+#Goblin {
+    text-indent: 3.125%; //30px;
+    margin-top: 0px;
+    margin-bottom: 3.125%; //30px;
+}
+#Halloween_Store {
+    color: black;
+    text-indent: 3.125%; //30px;
+    margin-bottom: 0px;
+    margin-top: 1.04%; //10px;
+    margin-left: 5.2%;  //50px;
+}
+#Hmenu{
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: black;
+    width: 100%;
+}
+#Hmenu li {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+#Hmenu li a{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 2em;
+    background: black;
+    color: white;
+    text-decoration: none;
+    width: 100%
+}
+#Hmenu li a:hover {
+    background: grey;
+}
+  #hamburger{
+        display: none;
+        float: right;
+        color: white;
+        text-decoration: none;
+        
+    }
+#Vmenu{
+    list-style: none;
+    float: left;
+    width: 15.63%; //150px;
+    border-color: black;
+}
+#Vmenu a{   
+    list-style-type: none;
+    display: block;
+    width: 8em;
+    width: 113.55%; //130px;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: orange;    
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .25em;
+    border: .5em black;
+    border-color: #000;
+    margin-top: 5.2%; //5px;
+}
+#Vmenu li{
+    border-color: black;
+}
+#Vmenu a:hover {
+    background: #87492F;
+    width: 7.6em;
+}
+#Vmenu2 {
+    display: none;
+}
+#Vmenu2 a{
+    display: none;
+}
+#Vmenu2 li{
+    display: none;
+}
+#main{
+    float: right;
+    width: 62.5%; //600px;
+    margin-left: 0px; 
+}
+#welcome::first-letter {
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#Please {
+    clear: both;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#cat_deranged a{
+    color: orange;
+    clear: both;
+    font-weight: bold;
+}
+/* Portrait */
+@media only screen  
+  and (max-device-width: 800px) 
+  and (orientation: portrait)  {
+     font-size: 90%;
+     background-color: white;
+     box-shadow: none;
+  }
+  /* Landscape */
+@media screen and (max-device-width: 767px) {
+    #Hmenu {
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+    #Vmenu{
+        clear: both;
+        margin-top: 5.2%; //50px;
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        float: right;
+        color: black;
+        text-decoration: none;    
+    }
+    body {
+    border: 1px solid black;
+    font-size: 110%;
+    margin: 0 auto;
+    width: 83%; //800px 
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+}
+    #Vmenu2 {
+    list-style: none;
+    width: 10.63%; //150px;
+    border-color: black;
+    display: block;
+    padding-left: 40%;
+}
+#Vmenu2 a{   
+    list-style-type: none;
+    display: block;
+    width: 8em;
+    width: 130px;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: orange;    
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .25em;
+    border: .5em black;
+    border-color: #000;
+    margin-top: 5px;
+    display: block;
+}
+#Vmenu2 li{
+    border-color: black;
+    display: block;
+}
+#Vmenu2 a:hover {
+    background: #87492F;
+    width: 7.6em;
+    display: black;
+}
+html{
+    background-image: none;
+}
+#main{
+    float: none;
+    width: 82.5%; //600px;
+    margin-left: 1%; 
+}
+}
+footer {
+  clear: both;
+  margin: 0 auto;
+  padding-top: .5em;
+  padding-bottom: 1.04%; //10px;
+  font-size: 80%;
+  text-align: center;
+  border: 1px solid black;
+  background: linear-gradient(45deg, black, orange 33%, white);
+}
+
+
+
+
